@@ -204,4 +204,13 @@ ssh -i "mykey.pem" ec2-user@10.0.2.176
    sudo yum update -y
    ```
    → This confirms internet access through NAT Gateway.
+
+### Deletion 
+```
+delete instances
+delete internet gateway
+delete NAT gateway
+Release and delete elastic ip 
+delete vpc
+```
 ---
